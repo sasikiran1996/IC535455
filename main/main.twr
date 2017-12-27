@@ -1,0 +1,280 @@
+--------------------------------------------------------------------------------
+Release 13.2 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.2\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf
+
+Design file:              main.ncd
+Physical constraint file: main.pcf
+Device,package,speed:     xc6slx45,csg324,C,-3 (PRODUCTION 1.19 2011-06-20)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+clock          |carry          |   65.551|
+clock          |count<0>       |   13.057|
+clock          |count<1>       |    9.618|
+clock          |overflow       |   58.399|
+clock          |reg01_value<0> |   39.407|
+clock          |reg01_value<1> |   53.396|
+clock          |reg01_value<2> |   28.161|
+clock          |reg01_value<3> |   65.787|
+clock          |reg02_value<0> |   39.826|
+clock          |reg02_value<1> |   53.297|
+clock          |reg02_value<2> |   28.247|
+clock          |reg02_value<3> |   17.615|
+clock          |reg03_value<0> |   39.733|
+clock          |reg03_value<1> |   53.190|
+clock          |reg03_value<2> |   28.797|
+clock          |reg03_value<3> |   16.604|
+clock          |reg04_value<0> |   41.397|
+clock          |reg04_value<1> |   53.098|
+clock          |reg04_value<2> |   29.642|
+clock          |reg04_value<3> |   16.365|
+data<0>        |carry          |   55.939|
+data<0>        |overflow       |   48.787|
+data<0>        |reg01_value<0> |   29.795|
+data<0>        |reg01_value<1> |   43.784|
+data<0>        |reg01_value<2> |   18.549|
+data<0>        |reg01_value<3> |   56.175|
+data<0>        |reg02_value<0> |   30.214|
+data<0>        |reg02_value<1> |   43.685|
+data<0>        |reg02_value<2> |   18.635|
+data<0>        |reg03_value<0> |   30.121|
+data<0>        |reg03_value<1> |   43.578|
+data<0>        |reg03_value<2> |   19.185|
+data<0>        |reg04_value<0> |   31.785|
+data<0>        |reg04_value<1> |   43.486|
+data<0>        |reg04_value<2> |   20.030|
+data<1>        |carry          |   56.270|
+data<1>        |overflow       |   49.118|
+data<1>        |reg01_value<0> |   30.126|
+data<1>        |reg01_value<1> |   44.115|
+data<1>        |reg01_value<2> |   18.880|
+data<1>        |reg01_value<3> |   56.506|
+data<1>        |reg02_value<0> |   30.545|
+data<1>        |reg02_value<1> |   44.016|
+data<1>        |reg02_value<2> |   18.966|
+data<1>        |reg03_value<0> |   30.452|
+data<1>        |reg03_value<1> |   43.909|
+data<1>        |reg03_value<2> |   19.516|
+data<1>        |reg04_value<0> |   32.116|
+data<1>        |reg04_value<1> |   43.817|
+data<1>        |reg04_value<2> |   20.361|
+data<2>        |carry          |   55.089|
+data<2>        |overflow       |   47.937|
+data<2>        |reg01_value<0> |   28.945|
+data<2>        |reg01_value<1> |   42.934|
+data<2>        |reg01_value<2> |   17.699|
+data<2>        |reg01_value<3> |   55.325|
+data<2>        |reg02_value<0> |   29.364|
+data<2>        |reg02_value<1> |   42.835|
+data<2>        |reg02_value<2> |   17.785|
+data<2>        |reg03_value<0> |   29.271|
+data<2>        |reg03_value<1> |   42.728|
+data<2>        |reg03_value<2> |   18.335|
+data<2>        |reg04_value<0> |   30.935|
+data<2>        |reg04_value<1> |   42.636|
+data<2>        |reg04_value<2> |   19.180|
+data<3>        |carry          |   55.799|
+data<3>        |overflow       |   48.647|
+data<3>        |reg01_value<0> |   29.655|
+data<3>        |reg01_value<1> |   43.644|
+data<3>        |reg01_value<2> |   18.409|
+data<3>        |reg01_value<3> |   56.035|
+data<3>        |reg02_value<0> |   30.074|
+data<3>        |reg02_value<1> |   43.545|
+data<3>        |reg02_value<2> |   18.495|
+data<3>        |reg03_value<0> |   29.981|
+data<3>        |reg03_value<1> |   43.438|
+data<3>        |reg03_value<2> |   19.045|
+data<3>        |reg04_value<0> |   31.645|
+data<3>        |reg04_value<1> |   43.346|
+data<3>        |reg04_value<2> |   19.890|
+data<4>        |carry          |   56.916|
+data<4>        |overflow       |   49.764|
+data<4>        |reg01_value<0> |   30.772|
+data<4>        |reg01_value<1> |   44.761|
+data<4>        |reg01_value<2> |   19.526|
+data<4>        |reg01_value<3> |   57.152|
+data<4>        |reg02_value<0> |   31.191|
+data<4>        |reg02_value<1> |   44.662|
+data<4>        |reg02_value<2> |   19.612|
+data<4>        |reg02_value<3> |    9.097|
+data<4>        |reg03_value<0> |   31.098|
+data<4>        |reg03_value<1> |   44.555|
+data<4>        |reg03_value<2> |   20.162|
+data<4>        |reg03_value<3> |    8.223|
+data<4>        |reg04_value<0> |   32.762|
+data<4>        |reg04_value<1> |   44.463|
+data<4>        |reg04_value<2> |   21.007|
+data<4>        |reg04_value<3> |    9.044|
+data<5>        |carry          |   56.835|
+data<5>        |overflow       |   49.683|
+data<5>        |reg01_value<0> |   30.691|
+data<5>        |reg01_value<1> |   44.680|
+data<5>        |reg01_value<2> |   19.445|
+data<5>        |reg01_value<3> |   57.071|
+data<5>        |reg02_value<0> |   31.110|
+data<5>        |reg02_value<1> |   44.581|
+data<5>        |reg02_value<2> |   19.531|
+data<5>        |reg02_value<3> |    9.052|
+data<5>        |reg03_value<0> |   31.017|
+data<5>        |reg03_value<1> |   44.474|
+data<5>        |reg03_value<2> |   20.081|
+data<5>        |reg03_value<3> |    7.905|
+data<5>        |reg04_value<0> |   32.681|
+data<5>        |reg04_value<1> |   44.382|
+data<5>        |reg04_value<2> |   20.926|
+data<5>        |reg04_value<3> |    8.165|
+data<6>        |carry          |   64.419|
+data<6>        |count<0>       |   11.925|
+data<6>        |overflow       |   57.267|
+data<6>        |reg01_value<0> |   38.275|
+data<6>        |reg01_value<1> |   52.264|
+data<6>        |reg01_value<2> |   27.029|
+data<6>        |reg01_value<3> |   64.655|
+data<6>        |reg02_value<0> |   38.694|
+data<6>        |reg02_value<1> |   52.165|
+data<6>        |reg02_value<2> |   27.115|
+data<6>        |reg02_value<3> |   16.483|
+data<6>        |reg03_value<0> |   38.601|
+data<6>        |reg03_value<1> |   52.058|
+data<6>        |reg03_value<2> |   27.665|
+data<6>        |reg03_value<3> |   15.472|
+data<6>        |reg04_value<0> |   40.265|
+data<6>        |reg04_value<1> |   51.966|
+data<6>        |reg04_value<2> |   28.510|
+data<6>        |reg04_value<3> |   15.233|
+data<7>        |carry          |   65.244|
+data<7>        |count<0>       |   12.750|
+data<7>        |overflow       |   58.092|
+data<7>        |reg01_value<0> |   39.100|
+data<7>        |reg01_value<1> |   53.089|
+data<7>        |reg01_value<2> |   27.854|
+data<7>        |reg01_value<3> |   65.480|
+data<7>        |reg02_value<0> |   39.519|
+data<7>        |reg02_value<1> |   52.990|
+data<7>        |reg02_value<2> |   27.940|
+data<7>        |reg02_value<3> |   17.308|
+data<7>        |reg03_value<0> |   39.426|
+data<7>        |reg03_value<1> |   52.883|
+data<7>        |reg03_value<2> |   28.490|
+data<7>        |reg03_value<3> |   16.297|
+data<7>        |reg04_value<0> |   41.090|
+data<7>        |reg04_value<1> |   52.791|
+data<7>        |reg04_value<2> |   29.335|
+data<7>        |reg04_value<3> |   16.058|
+data<8>        |carry          |   65.061|
+data<8>        |count<0>       |   12.567|
+data<8>        |overflow       |   57.909|
+data<8>        |reg01_value<0> |   38.917|
+data<8>        |reg01_value<1> |   52.906|
+data<8>        |reg01_value<2> |   27.671|
+data<8>        |reg01_value<3> |   65.297|
+data<8>        |reg02_value<0> |   39.336|
+data<8>        |reg02_value<1> |   52.807|
+data<8>        |reg02_value<2> |   27.757|
+data<8>        |reg02_value<3> |   17.125|
+data<8>        |reg03_value<0> |   39.243|
+data<8>        |reg03_value<1> |   52.700|
+data<8>        |reg03_value<2> |   28.307|
+data<8>        |reg03_value<3> |   16.114|
+data<8>        |reg04_value<0> |   40.907|
+data<8>        |reg04_value<1> |   52.608|
+data<8>        |reg04_value<2> |   29.152|
+data<8>        |reg04_value<3> |   15.875|
+data<9>        |carry          |   65.227|
+data<9>        |count<0>       |   12.733|
+data<9>        |overflow       |   58.075|
+data<9>        |reg01_value<0> |   39.083|
+data<9>        |reg01_value<1> |   53.072|
+data<9>        |reg01_value<2> |   27.837|
+data<9>        |reg01_value<3> |   65.463|
+data<9>        |reg02_value<0> |   39.502|
+data<9>        |reg02_value<1> |   52.973|
+data<9>        |reg02_value<2> |   27.923|
+data<9>        |reg02_value<3> |   17.291|
+data<9>        |reg03_value<0> |   39.409|
+data<9>        |reg03_value<1> |   52.866|
+data<9>        |reg03_value<2> |   28.473|
+data<9>        |reg03_value<3> |   16.280|
+data<9>        |reg04_value<0> |   41.073|
+data<9>        |reg04_value<1> |   52.774|
+data<9>        |reg04_value<2> |   29.318|
+data<9>        |reg04_value<3> |   16.041|
+reset          |carry          |   62.339|
+reset          |count<0>       |    9.845|
+reset          |overflow       |   55.187|
+reset          |reg01_value<0> |   36.195|
+reset          |reg01_value<1> |   50.184|
+reset          |reg01_value<2> |   24.949|
+reset          |reg01_value<3> |   62.575|
+reset          |reg02_value<0> |   36.614|
+reset          |reg02_value<1> |   50.085|
+reset          |reg02_value<2> |   25.035|
+reset          |reg02_value<3> |   14.403|
+reset          |reg03_value<0> |   36.521|
+reset          |reg03_value<1> |   49.978|
+reset          |reg03_value<2> |   25.585|
+reset          |reg03_value<3> |   13.392|
+reset          |reg04_value<0> |   38.185|
+reset          |reg04_value<1> |   49.886|
+reset          |reg04_value<2> |   26.430|
+reset          |reg04_value<3> |   13.153|
+w              |carry          |   63.084|
+w              |count<0>       |   10.590|
+w              |overflow       |   55.932|
+w              |reg01_value<0> |   36.940|
+w              |reg01_value<1> |   50.929|
+w              |reg01_value<2> |   25.694|
+w              |reg01_value<3> |   63.320|
+w              |reg02_value<0> |   37.359|
+w              |reg02_value<1> |   50.830|
+w              |reg02_value<2> |   25.780|
+w              |reg02_value<3> |   15.148|
+w              |reg03_value<0> |   37.266|
+w              |reg03_value<1> |   50.723|
+w              |reg03_value<2> |   26.330|
+w              |reg03_value<3> |   14.137|
+w              |reg04_value<0> |   38.930|
+w              |reg04_value<1> |   50.631|
+w              |reg04_value<2> |   27.175|
+w              |reg04_value<3> |   13.898|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Nov 13 18:48:24 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 196 MB
+
+
+

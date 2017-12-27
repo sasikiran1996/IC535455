@@ -1,0 +1,56 @@
+Running: C:\Xilinx\13.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Verilog/Project/main/test_isim_beh.exe -prj D:/Verilog/Project/main/test_beh.prj work.test work.glbl 
+ISim O.61xd (signature 0x6dd86d03)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"D:/Verilog/Project/main/main.v\" into library work
+Analyzing Verilog file \"D:/Verilog/Project/main/test.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/13.2/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 113088 KB
+Fuse CPU Usage: 218 ms
+Compiling module D_FlipFlop
+Compiling module counter
+Compiling module Decoder_2_4
+Compiling module Decoder_4_16
+Compiling module mux_2_1
+Compiling module Tri_State_Buffer
+Compiling module register_unit
+Compiling module register
+Compiling module encoder_4_2
+Compiling module mux_4_1_4bit
+Compiling module mux_2_1_4bit
+Compiling module Tri_State_Buffer_4_bit
+Compiling module mux_4_1
+Compiling module carry_lookahead_adder
+Compiling module add_sub
+Compiling module Addition_Subtraction
+Compiling module increment_by_1
+Compiling module decrement_by_1
+Compiling module increment_by_k
+Compiling module s_Sample
+Compiling module FullAdder
+Compiling module adder_10bit
+Compiling module mux_4_1_10bit
+Compiling module arithmetic_right_shift_10bit
+Compiling module booth_multiplication
+Compiling module and_4bit
+Compiling module or_4bit
+Compiling module not_4bit
+Compiling module left_shift
+Compiling module right_shift
+Compiling module circular_left_shift
+Compiling module circular_right_shift
+Compiling module mux_16_1_4bit
+Compiling module mux_8_1
+Compiling module mux_16_1
+Compiling module main
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 38 Verilog Units
+Built simulation executable D:/Verilog/Project/main/test_isim_beh.exe
+Fuse Memory Usage: 121880 KB
+Fuse CPU Usage: 514 ms
